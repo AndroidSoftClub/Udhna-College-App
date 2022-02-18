@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.HomeActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp">
+
+        <ImageView
+            android:id="@+id/backID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back_image"
+            android:backgroundTint="#00796B"
+            android:padding="10dp"
+            android:tint="#fff"
+            android:layout_margin="5dp"
+            android:layout_centerVertical="true"
+            android:paddingRight="5dp"
+            android:elevation="3dp"
+            android:background="@drawable/round_shape"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Udhana Collage Home"
+            android:padding="8dp"
+            android:layout_centerInParent="true"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#00796B"
+            android:layout_margin="5dp"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="#00796B"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="8dp"
+        app:cardMaxElevation="3dp"
+        app:cardElevation="3dp"
+        app:cardPreventCornerOverlap="true"
+        android:animationCache="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="OUR VISION"
+                android:textColor="#000"
+                android:fontFamily="serif"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="To be an eminent and vibrant institute for education, our credo will always be excellence through innovations, empathy, ethics and teamwork and to cater to the ever changing needs of community at large."
+                android:layout_marginTop="10dp"
+                android:textColor="#444"
+                android:fontFamily="sans-serif"/>
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="8dp"
+        app:cardMaxElevation="3dp"
+        app:cardElevation="3dp"
+        app:cardPreventCornerOverlap="true"
+        android:animationCache="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="OUR MISSION"
+                android:textColor="#000"
+                android:fontFamily="serif"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="To impart quality education, nurture aspirations and facilitate continuous learning and to contribute to the society by developing outstanding individuals who would take up leadership challenges in various sectors of economy"
+                android:layout_marginTop="10dp"
+                android:textColor="#444"
+                android:fontFamily="sans-serif"/>
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="8dp"
+        app:cardMaxElevation="3dp"
+        app:cardElevation="3dp"
+        app:cardPreventCornerOverlap="true"
+        android:animationCache="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="ABOUT COLLAGE"
+                android:textColor="#000"
+                android:fontFamily="serif"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="The Udhna Academy Education Trust has been registered as an Educational Institute of Gujarat since June 1964. Our Motto is All Round Quality Education. The Student should become a valuable service provider by sharing his/her knowledge in the society and gain a place at the highest peak in his/her area through technical professional skill."
+                android:layout_marginTop="10dp"
+                android:textColor="#444"
+                android:fontFamily="sans-serif"/>
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="8dp"
+        app:cardMaxElevation="3dp"
+        app:cardElevation="3dp"
+        app:cardPreventCornerOverlap="true"
+        android:animationCache="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="Goal and Objectives"
+                android:textColor="#000"
+                android:fontFamily="serif"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="GOAL
+Our goal is ‘Excellence through performance’, based on the principle, ‘Intelligence and purposeful practice improve performance’.
+OBJECTIVES
+· To help the students develop their knowledge, skill and attitude for accepting challenges in various aspects of economy;
+· To contribute to the society by providing competent human capital with relevant skill;
+· To provide platform for the student to fulfil their dreams successfully; and
+· To transform their individual personality from a mere student to a responsible and committed citizen."
+                android:layout_marginTop="10dp"
+                android:textColor="#444"
+                android:fontFamily="sans-serif"/>
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="8dp"
+                app:cardMaxElevation="3dp"
+                app:cardElevation="3dp"
+                app:cardPreventCornerOverlap="true"
+                android:animationCache="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="18dp"
+                        android:text="PRESIDENT'S MESSAGE"
+                        android:textColor="#000"
+                        android:fontFamily="serif"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:text="I am delighted to extend a warm welcome to aspiring students to join the institution managed by Udhna Academy Education Trust (Surat) based on the values of faith, knowledge and action powered by a strong will and a commitment to serve mankind. The Trust was established in 1964 with a view to nurture and support quality education and it imparts education from KG to UG level.
+It has been our endeavour to provide progressive, practical and innovative education to the youth of our country. Our Management Team is putting in place numerous supportive programmes that will enhance our offer and ensure that all the students at our institutes experience quality education."
+                        android:layout_marginTop="10dp"
+                        android:textColor="#444"
+                        android:fontFamily="sans-serif"/>
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="8dp"
+                app:cardMaxElevation="3dp"
+                app:cardElevation="3dp"
+                app:cardPreventCornerOverlap="true"
+                android:animationCache="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="18dp"
+                        android:text="PRINCIPAL'S MESSAGE"
+                        android:textColor="#000"
+                        android:fontFamily="serif"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:text="The College campus is the launching platform that transforms raw youth of the nation into a brigade of potentially powerful and responsible citizens- the successful individuals. It has been my proud privilege to be a part of this noble mission. It gives me a feeling of great achievement and accomplishment to see our college nurture this responsibility at its best. Our teachers are capable of igniting spark in students. A spark always catches a fire. It is the responsibility of our youth to ignite the fire in creative direction and lead the path as torchbearers for the society. We have never compromised in discipline and value based education and that is why our college has achieved a prestigious position among all the colleges in the South Gujarat region. We aspire to be the best institute of education that is focused on the career development of all the deserving students."
+                        android:layout_marginTop="10dp"
+                        android:textColor="#444"
+                        android:fontFamily="sans-serif"/>
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
